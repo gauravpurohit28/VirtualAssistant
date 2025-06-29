@@ -5,8 +5,6 @@ import { IoEyeOff } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import { userDataContext } from '../context/UserContext';
 import axios from "axios"
-
-
 function SignIn() {
   const [showPassword,setShowPassword]=useState(false)
   const {serverUrl,userData,setUserData}=useContext(userDataContext)

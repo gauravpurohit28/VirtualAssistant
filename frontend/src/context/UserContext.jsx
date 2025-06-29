@@ -13,7 +13,15 @@ function UserContext({children}) {
             setUserData(result.data)
             console.log(result.data)
         } catch (error) {
-            console.log(error)
+            if (
+                error.response &&
+                error.response.data &&
+                error.response.data.message === "token not found"
+            ) {
+                setUserData(null)
+            } else {
+                console.log(error)
+            }
         }
     }
 

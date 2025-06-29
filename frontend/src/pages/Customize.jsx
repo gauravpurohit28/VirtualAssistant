@@ -11,8 +11,6 @@ import { RiImageAddLine } from "react-icons/ri";
 import { userDataContext } from '../context/UserContext'
 import { useNavigate } from 'react-router-dom'
 import { MdKeyboardBackspace } from "react-icons/md";
-
-
 function Customize() {
   const {serverUrl,userData,setUserData,backendImage,setBackendImage,frontendImage,setFrontendImage,selectedImage,setSelectedImage}=useContext(userDataContext)
   const navigate=useNavigate()
