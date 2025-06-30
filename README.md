@@ -121,4 +121,4 @@ VirtualAssistant/
 
 ## License
 
-This project is for educational/personal use. For commercial or open-source licensing, please contact the author. 
+Gaurav Purohit
